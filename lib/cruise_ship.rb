@@ -12,6 +12,7 @@ def select_winner(passengers)
   passengers.each {|suite, name| 
     if suite == :suite_a && name.starts_with?("A")
       winner = name 
+    end 
   }
   winner
 end
